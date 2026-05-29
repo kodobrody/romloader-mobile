@@ -42,18 +42,12 @@ RomM is treated as an API-backed provider (not a raw filesystem), so the app map
 
 ## Getting Started
 
-1. Build the app:
-
-```bash
-./gradlew :app:assembleDebug
-```
-
-2. Launch the app on your Android device/emulator.
-3. Complete onboarding:
+1. Install the and launch the app.
+2. Complete onboarding:
    - Configure remote service connection
    - Configure optional IGDB credentials
-4. Open the library and browse platforms/games.
-5. Select games and start downloads.
+3. Open the library and browse platforms/games.
+4. Select games and start downloads.
 
 ## Project
 
