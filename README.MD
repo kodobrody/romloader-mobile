@@ -1,3 +1,4 @@
+**Desktop version available here:** [https://github.com/kodobrody/romloader-desktop](https://github.com/kodobrody/romloader-desktop)
 # Romloader
 
 Romloader is an Android app for browsing, managing, and downloading retro game files from remote services into your local library.
