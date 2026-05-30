@@ -81,6 +81,15 @@ Use one of the aliases below as your folder name.
 | Sega CD | segacd, megacd |
 | Sega Saturn | saturn, segasaturn |
 | Dreamcast | dreamcast, segadreamcast, dc |
+| Xbox | xbox, microsoftxbox |
+| Xbox 360 | xbox360, microsoftxbox360 |
+| Xbox One | xboxone, microsoftxboxone |
+| Xbox Series X/S | series-x-s, xboxseries, xboxseriesx, xboxseriess |
+| Neo Geo | neogeo, neogeoaes, neogeomvs |
+| Commodore 64 | c64, commodore64 |
+| Sega Master System | sms, segamastersystem |
+| Sega Game Gear | gamegear, segagamegear |
+| Sega 32X | sega32x, 32x |
 
 ## Project
 

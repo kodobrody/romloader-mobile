@@ -152,6 +152,61 @@ val PLATFORM_DEFINITIONS = listOf(
         extensions = listOf("cdi", "chd", "gdi"),
         igdbPlatformIds = listOf(23)
     )
+    ,
+    PlatformDefinition(
+        displayName = "Xbox",
+        aliases = listOf("xbox", "microsoftxbox"),
+        extensions = listOf("iso", "xbe"),
+        igdbPlatformIds = listOf(11)
+    ),
+    PlatformDefinition(
+        displayName = "Xbox 360",
+        aliases = listOf("xbox360", "microsoftxbox360"),
+        extensions = listOf("iso", "xex"),
+        igdbPlatformIds = listOf(12)
+    ),
+    PlatformDefinition(
+        displayName = "Xbox One",
+        aliases = listOf("xboxone", "microsoftxboxone"),
+        extensions = listOf("iso"),
+        igdbPlatformIds = listOf(49)
+    ),
+    PlatformDefinition(
+        displayName = "Xbox Series X/S",
+        aliases = listOf("series-x-s", "xboxseries", "xboxseriesx", "xboxseriess"),
+        extensions = listOf("iso"),
+        igdbPlatformIds = listOf(169)
+    ),
+    PlatformDefinition(
+        displayName = "Neo Geo",
+        aliases = listOf("neogeo", "neogeoaes", "neogeomvs"),
+        extensions = listOf("zip"),
+        igdbPlatformIds = listOf(30)
+    ),
+    PlatformDefinition(
+        displayName = "Commodore 64",
+        aliases = listOf("c64", "commodore64"),
+        extensions = listOf("d64", "t64", "prg", "crt", "tap"),
+        igdbPlatformIds = listOf(41)
+    ),
+    PlatformDefinition(
+        displayName = "Sega Master System",
+        aliases = listOf("sms", "segamastersystem"),
+        extensions = listOf("sms", "sg"),
+        igdbPlatformIds = listOf(64)
+    ),
+    PlatformDefinition(
+        displayName = "Sega Game Gear",
+        aliases = listOf("gamegear", "segagamegear"),
+        extensions = listOf("gg"),
+        igdbPlatformIds = listOf(35)
+    ),
+    PlatformDefinition(
+        displayName = "Sega 32X",
+        aliases = listOf("sega32x", "32x"),
+        extensions = listOf("32x", "bin"),
+        igdbPlatformIds = listOf(79)
+    )
 )
 
 fun getPlatformDisplayName(platformId: String): String {
