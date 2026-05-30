@@ -42,12 +42,44 @@ RomM is treated as an API-backed provider (not a raw filesystem), so the app map
 
 ## Getting Started
 
+0. **IMPORTANT** For FTP, SFTP, and Nextcloud sources, name your platform folders using one of the aliases listed in the platform table below.
 1. Install the and launch the app.
 2. Complete onboarding:
    - Configure remote service connection
    - Configure optional IGDB credentials
 3. Open the library and browse platforms/games.
 4. Select games and start downloads.
+
+## Platform Folder Naming (FTP/SFTP/Nextcloud)
+
+When using filesystem-based services (FTP, SFTP, Nextcloud), Romloader maps folder names to known platforms using aliases.
+Use one of the aliases below as your folder name.
+
+| Platform | Accepted folder names (aliases) |
+| --- | --- |
+| PlayStation | ps1, psx, playstation, sonyplaystation |
+| PlayStation 2 | ps2, playstation2, sonyplaystation2 |
+| PlayStation 3 | ps3, playstation3, sonyplaystation3 |
+| PlayStation 4 | ps4, playstation4, sonyplaystation4 |
+| PlayStation 5 | ps5, playstation5, sonyplaystation5 |
+| PSP | psp, playstationportable |
+| PS Vita | psvita, vita, playstationvita |
+| Nintendo Entertainment System | nes, nintendoentertainmentsystem |
+| Super Nintendo | snes, supernintendo, superfamicom |
+| Nintendo 64 | n64, nintendo64 |
+| Game Boy | gb, gameboy |
+| Game Boy Color | gbc, gameboycolor |
+| Game Boy Advance | gba, gameboyadvance |
+| Nintendo DS | ds, nds, nintendods |
+| Nintendo 3DS | 3ds, n3ds, nintendo3ds |
+| Nintendo GameCube | gamecube, gc, ngc |
+| Nintendo Wii | wii |
+| Nintendo Wii U | wiiu, nintendowiiu |
+| Nintendo Switch | switch, nintendoswitch, nsw |
+| Sega Genesis | genesis, megadrive, segagenesis, segamegadrive, md |
+| Sega CD | segacd, megacd |
+| Sega Saturn | saturn, segasaturn |
+| Dreamcast | dreamcast, segadreamcast, dc |
 
 ## Project
 
